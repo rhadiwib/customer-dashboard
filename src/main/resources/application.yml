@@ -1,0 +1,15 @@
+server:
+  port: 9191
+spring:
+  application:
+    name: customer-dashboard
+  datasource:
+    url: jdbc:postgresql://localhost:5433/customer_dashboard
+    username: dbadm01
+    password: dbadm@135%
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        jdbc:
+          time_zone: UTC
